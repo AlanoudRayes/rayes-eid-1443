@@ -10,7 +10,7 @@
     <style>
       @font-face {
         font-family: hs-font-regular;
-        src: url(fonts/FrutigerLTArabic-65Bold.ttf);
+        src: url(fonts/FrutigerLTArabic55Roman.ttf);
       }
 
       body {
@@ -64,7 +64,7 @@
       }
 
       button {
-        background-color: #c8d5cb;
+        background-color: rgb(171, 171, 171);
         border: none;
         padding: 11px 42px;
         border-radius: 8px;
@@ -180,7 +180,7 @@
           //redraw image
           ctx.drawImage(img.get(0), 0, 0);
           //refill text
-          ctx.fillStyle = "#5b6f60";
+          ctx.fillStyle = "#000000";
           ctx.fillText($('#input_1').val(), 1400, 1450);
         });
       }
